@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erasure Coding - Student Project</title>
+    <title>Erasure Coding Simulator — Reed-Solomon &amp; GF(2^8) cloud storage, visualized</title>
+    <meta name="description" content="Interactive erasure coding simulator: split a word into data shards, add parity with GF(2^8) Galois field math, spread pieces across six cloud servers, destroy up to two and watch the data get rebuilt.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -67,6 +68,13 @@
             to { opacity: 1; transform: translateY(0); }
         }
     </style>
+    <link rel="canonical" href="https://erasure-coding.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://erasure-coding.vercel.app/">
+    <meta property="og:title" content="Erasure Coding Simulator">
+    <meta property="og:description" content="See how cloud storage survives server failures: data shards, parity, GF(2^8) math and recovery, step by step.">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Erasure Coding Simulator","url":"https://erasure-coding.vercel.app/","description":"Interactive step-by-step simulator of erasure coding in distributed cloud storage, using GF(2^8) arithmetic.","learningResourceType":"Simulation","educationalLevel":"Undergraduate","teaches":["Erasure coding","Reed-Solomon codes","Galois field GF(2^8) arithmetic","Distributed storage fault tolerance"],"author":{"@type":"Person","name":"Anshit Sinha","url":"https://anshit.is-a.dev"}}</script>
 </head>
 <body class="min-h-screen pb-20">
 

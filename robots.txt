@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://erasure-coding.vercel.app/sitemap.xml
