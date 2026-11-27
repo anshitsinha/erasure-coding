@@ -143,3 +143,7 @@ Course project presented by:
 - Apoorv Sisodia
 - Nongmaithem Zeno
 
+
+---
+
+Case study: [anshit.is-a.dev/works/erasure-coding](https://anshit.is-a.dev/works/erasure-coding) · Built by [Anshit Sinha](https://anshit.is-a.dev)
